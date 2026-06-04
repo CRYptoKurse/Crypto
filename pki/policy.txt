@@ -1,0 +1,17 @@
+Certificate Policy Document
+CA Name: /CN=Root CA
+Serial Number: 0x3245446809f97e498ac0c40430c196511d30d2
+Validity: 2026-06-04 12:42:00+00:00 to 2036-06-01 12:42:00+00:00
+Key Algorithm: RSA-4096
+Purpose: Root CA for MicroPKI demonstration
+Policy Version: 1.0
+Creation Date: 2026-06-04 12:42:00+00:00
+
+
+=== Intermediate CA ===
+Subject: CN=Intermediate CA
+Serial Number: 0x979146dee19b5301d98a64468d91bbfdc98ce7
+Validity: 2026-06-04 12:42:14+00:00 to 2031-06-03 12:42:14+00:00
+Key Algorithm: RSA-4096
+Path Length Constraint: 0
+Issuer: CN=Root CA
