@@ -1,0 +1,17 @@
+Certificate Policy Document
+CA Name: /CN=Demo Root CA
+Serial Number: 0x496807f9830e58c47d2a7d065c1ace26db6455
+Validity: 2026-06-07 21:25:31+00:00 to 2036-06-04 21:25:31+00:00
+Key Algorithm: RSA-4096
+Purpose: Root CA for MicroPKI demonstration
+Policy Version: 1.0
+Creation Date: 2026-06-07 21:25:31+00:00
+
+
+=== Intermediate CA ===
+Subject: CN=Demo Inter CA
+Serial Number: 0xc1a00cc703e8fcb
+Validity: 2026-06-07 21:25:32+00:00 to 2031-06-06 21:25:32+00:00
+Key Algorithm: RSA-4096
+Path Length Constraint: 0
+Issuer: CN=Demo Root CA
