@@ -1,0 +1,11 @@
+# Core cryptographic operations
+cryptography>=41.0.0
+
+# HTTP repository server and OCSP responder
+Flask>=2.0.0
+
+# HTTP client for revocation checks and certificate requests
+requests>=2.25.0
+
+# Testing framework (optional but recommended)
+pytest>=6.0.0
